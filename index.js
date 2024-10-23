@@ -11,7 +11,7 @@ search.addEventListener('click', () => {
     if (city === '')
         return;
 
-    fetch(`http://YOUR SERVER FOR DATA REQUESTS.com/${city}`)
+    fetch(`http://wttr.in/${city}?format=j1`)
         
         .then(response => response.json())
         
